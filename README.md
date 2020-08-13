@@ -40,5 +40,5 @@ If you have any questions, please email me: yangyuqi@sina.com
 - 解码 opus 数据并回放到扬声器
 - 拦截用户触摸事件并将这些事件发送到服务器
 
-这套方案是我独自开发的，我有全套源码，如果有厂家需要，可以合作。
+这套方案是我独自开发的，我有全套源码，如果有厂家需要，可以合作。   
 有任何问题可以给我发邮件：yangyuqi@sina.com
