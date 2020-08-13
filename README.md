@@ -32,7 +32,7 @@ If you have any questions, please email me: yangyuqi@sina.com
 
 # 云游戏核心解决方案
 这是一款云游戏（arm64）的核心解决方案。包括服务器和客户端 sdk。
-解决方案是在 ROCKCHIP 的 rk3399 CPU 上实现的，并运行在 Android9.0 操作系统上。
+解决方案是在 ROCKCHIP 的 rk3399 CPU 上实现的，并运行在 Android 9.0 操作系统上。
 
 该解决方案包括以下功能：   
 1 服务器
