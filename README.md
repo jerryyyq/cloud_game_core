@@ -4,8 +4,8 @@ The solution is realization on ROCKCHIP's rk3399 CPU, and run at Androd 9.0 OS.
 The solution includes the following features:  
 
 1. server 
-- screen capture   
-- play sound capture   
+- screen video capture   
+- system play sound capture   
 - video encode to h264   
 - audio encode to opus    
 - remote control: receive client touch events and replay on system   
@@ -51,20 +51,20 @@ If you have any questions, please email me: yangyuqi@sina.com
 解决方案是在 ROCKCHIP 的 rk3399 CPU 上实现的，并运行在 Android 9.0 操作系统上。  
 
 该解决方案包括以下功能：   
-1 服务器
-- 屏幕截图
-- 播放声音捕捉
+1. 服务器
+- 屏幕视频捕捉
+- 系统播放声音捕捉
 - 视频编码到 h264
 - 音频编码到 opus
 - 远程控制：接收客户端触摸事件并在系统上回放
 
-2 客户端
+2. 客户端
 - 解码 h264 数据并绘制到屏幕上
 - 解码 opus 数据并回放到扬声器
 - 拦截用户触摸事件并将这些事件发送到服务器
 
 ## 安装说明
-1 服务器
+1. 服务器
 ```
 adb root
 adb remount
@@ -81,7 +81,7 @@ cd /system/xbin/
 ./yyq_stream_server
 ```
 
-2 客户端
+2. 客户端
 你可以使用任何方法将 client/app-debug.apk 放置到你的手机上，然后安装并运行它。  
 在程序启动后的输入框中输入你的 server 的 IP 地址，然后点击 "开始" 按钮。  
 这个客户端程序将会连接你的服务器，然后播放服务器端的音视频，并且传输你的操作到服务器端。  
