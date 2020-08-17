@@ -16,7 +16,7 @@ The solution includes the following features:
 - hook user touch and send to server  
 
 ## install description
-1. server (need: rk3399, android 9.0)
+1. server (need: rk3399, android 9.0)  
 ```
 adb root
 adb remount
@@ -33,7 +33,7 @@ cd /system/xbin/
 ./yyq_stream_server
 ```
 
-2. client (any android mobile, need ver > 5.1)
+2. client (any android mobile, need ver > 5.1)    
 You can any way to push client/app-debug.apk to you android mobile, and install it on your phone.  
 run the apk, and type your server ip address to input box, and clieck "开始" button.  
 The apk will connect your server and work.  
@@ -81,7 +81,7 @@ cd /system/xbin/
 ./yyq_stream_server
 ```
 
-2. 客户端
+2. 客户端   
 你可以使用任何方法将 client/app-debug.apk 放置到你的手机上，然后安装并运行它。  
 在程序启动后的输入框中输入你的 server 的 IP 地址，然后点击 "开始" 按钮。  
 这个客户端程序将会连接你的服务器，然后播放服务器端的音视频，并且传输你的操作到服务器端。  
